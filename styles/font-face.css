@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Dana-Black;
+    src: url(../fonts/DanaFaNum-Black.ttf);
+}
+@font-face {
+    font-family: Dana-Bold;
+    src: url(../fonts/DanaFaNum-Bold.ttf);
+}
+@font-face {
+    font-family: Dana-Demibold;
+    src: url(../fonts/DanaFaNum-DemiBold.ttf);
+}
+@font-face {
+    font-family: Dana-Extrablack;
+    src: url(../fonts/DanaFaNum-ExtraBlack.ttf);
+}
+@font-face {
+    font-family: Dana-Extrabold;
+    src: url(../fonts/DanaFaNum-ExtraBold.ttf);
+}
+@font-face {
+    font-family: Dana-Heavy;
+    src: url(../fonts/DanaFaNum-Heavy.ttf);
+}
+@font-face {
+    font-family: Dana-Light;
+    src: url(../fonts/DanaFaNum-Light.ttf);
+}
+@font-face {
+    font-family: Dana-Medium;
+    src: url(../fonts/DanaFaNum-Medium.ttf);
+}
+@font-face {
+    font-family: Dana-Regular;
+    src: url(../fonts/DanaFaNum-Regular.ttf);
+}
+@font-face {
+    font-family: Dana-Thin;
+    src: url(../fonts/DanaFaNum-Thin.ttf);
+}
+@font-face {
+    font-family: Dana-Ultralight;
+    src: url(../fonts/DanaFaNum-UltraLight.ttf);
+}

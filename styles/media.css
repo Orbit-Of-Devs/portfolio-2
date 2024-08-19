@@ -1,0 +1,231 @@
+@media (width < 576px){
+
+}
+
+@media (width >= 576px){
+    .container{
+        width: 540px;
+    }
+}
+
+@media (width >= 768px){
+    .container{
+        width: 720px;
+        margin-bottom: 3.5rem;
+    }
+    .footer{
+        margin-bottom: 0;
+    }
+    .menu__item{
+        display: flex;
+    }
+    .menu__item-hamburger{
+        display: none;
+    }
+    .menu__item-logo{
+        width: 3rem;
+        height: 3rem;
+    }
+
+    /* Hero */
+    .hero{
+        flex-direction: row-reverse;
+    }
+    .hero__img-wrapper{
+        flex-basis: 280px;
+    }
+    .hero__text{
+        flex-basis: 50%;
+        align-items: start;
+    }
+    .hero__text-subtitle{
+        font-size: var(--Headline-Small);
+        font-family: Dana-Bold;
+        text-align: start;
+    }
+    .hero__text-title{
+        font-size: var(--Display-Medium);
+        text-align: start;
+    }
+    .hero__text-text{
+        text-align: start;
+    }
+    .hero__cta{
+        justify-content: start;
+    }
+
+    /* About me */
+    .about-me{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .about-me-info{
+        flex-basis: 100%;
+    }
+    .section-title{
+        font-size: var(--Headline-Large);
+    }
+    .about-me-experiences{
+        flex-basis: calc(50% - 1rem);
+    }
+    .experience__title{
+        font-size: var(--Headline-Medium);
+    }
+    .experience__title svg{
+        width: 1.75rem;
+        height: 1.75rem;
+    }
+    .experience__position{
+        font-size: var(--Headline-Small);
+        font-family: Dana-Bold;
+    }
+
+    /* Projects */
+    .project{
+        flex-direction: row;
+        gap: 1rem;
+        height: 19rem;
+    }
+    .project__img-wrapper{
+        flex-basis: 18rem;
+        height: 100%;
+    }
+    .project__info{
+        flex-basis: calc(100% - 19rem);
+    }
+    .project__info-name{
+        font-size: var(--Headline-Medium);
+    }
+    .project__tag-wrapper{
+        margin-top: auto;
+    }
+    .project__tag{
+        padding: 0.45rem 0.75rem;
+        font-size: var(--Title-Medium);
+    }
+
+    /* skills */
+    .skill{
+        width: 9.5rem;
+        height: 9.5rem;
+    }
+    .skill svg{
+        width: 4rem;
+        height: 4rem;
+    }
+    .skill__percentage{
+        font-size: var(--Title-Medium);
+    }
+
+    /* Contact */
+    .contact{
+        gap: 1rem;
+    }
+    .contact__link-wrapper{
+        flex-direction: row;
+        gap: 1rem;
+    }
+    .contact__link-social{
+        gap: 1rem;
+    }
+    .email{
+        order: -1;
+    }
+
+    /* footer */
+    .footer{
+        font-size: var(--Title-Large);
+    }
+}
+
+@media (width >= 992px){
+    .container {
+        width: 960px;
+        margin-bottom: 4rem;
+    }
+    .footer{
+        margin-bottom: 0;
+    }
+
+    /* Hero */
+    .hero__img-wrapper{
+        flex-basis: 380px;
+        height: 450px;
+    }
+    .hero__text{
+        flex-basis: 55%;
+    }
+    .hero__text-suntitle{
+        font-size: var(--Headline-Medium);
+    }
+    .hero__text-title{
+        font-size: var(--Display-Large);
+    }
+
+    /* Aboutme */
+    .section-title{
+        font-size: var(--Display-Small);
+        font-family: Dana-Extrablack;
+    }
+    .experience__title{
+        font-size: var(--Headline-Large);
+    }
+    .experience__title svg{
+        width: 2rem;
+        height: 2rem;
+    }
+    /* Projects */
+    .project{
+        padding: 2rem;
+        gap: 2rem;
+        height: 21rem;
+    }
+    .project__img-wrapper{
+        flex-basis: 19rem;
+    }
+    .project__info{
+        flex-basis: calc(100% - 21rem);
+    }
+    .project__info-time{
+        font-size: var(--Title-Large);
+    }
+    .project__info-name{
+        font-size: var(--Headline-Large);
+    }
+    .project-tags{
+        padding: 0.45rem 1rem;
+        font-size: var(--Title-Large);
+    }
+
+    /* skills */
+    .skills-wrapper{
+        justify-content: space-between;
+    }
+    .skill{
+        gap: 1rem;
+        width: 10rem;
+        height: 10rem;
+    }
+    .skill__percentage{
+        font-size: var(--Title-Large);
+    }
+
+}
+
+@media (width >= 1200px){
+    .container {
+        width: 1140px;
+    }
+}
+
+@media (width >=1400px){
+    .container {
+        width: 1320px;
+    }
+}
+
+@media (hover: none) {
+    .skill{
+        filter: none;
+    }
+}
