@@ -28,6 +28,9 @@ function hideMenu() {
 let theme = document.getElementById('menu__item-sun')
 theme.addEventListener('click', darkMode)
 
+let theme2 = document.getElementById('mobile-menu-list-sun')
+theme2.addEventListener('click', darkMode)
+
 function darkMode() {
     let body = document.getElementById('body')
     body.classList.toggle('dark-mode')
